@@ -17,10 +17,7 @@ app.get('/', (req,res) => {
 });
 
 app.get('/:room', (req,res) => {
-    
-
     res.sendFile(__dirname + '/public/room.html');
-    
 });
 
 io.on('connection', (socket) => {
@@ -35,8 +32,4 @@ io.on('connection', (socket) => {
         io.in(data.room).emit('message', data);
     });  
 
-    socket.on('disconnect', (data) => {
-        console.log('user disconnected', data);
-        io.emit('message', {msg: 'user disconnected', name: 'server'});
-    });
 });

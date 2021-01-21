@@ -334,6 +334,11 @@ destroy@~1.0.4:
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
 
+dgram@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/dgram/-/dgram-1.0.1.tgz#37f3b200f8033a5ff759303089c81ce361b651c3"
+  integrity sha1-N/OyAPgDOl/3WTAwicgc42G2UcM=
+
 dot-prop@^5.2.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-5.3.0.tgz#90ccce708cd9cd82cc4dc8c3ddd9abdd55b20e88"
