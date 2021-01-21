@@ -1,0 +1,27 @@
+body{
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+#form-container{
+    max-width: 300px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: .5rem;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button{
+    margin-top: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}

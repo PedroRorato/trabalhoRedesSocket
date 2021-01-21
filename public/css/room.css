@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    border-bottom: 1px solid #ccc;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    margin: 0;
+}
+
+.content{
+    background-color: #ddd;
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
+#messages{
+    height: calc(100% - 70px);
+    padding: .5rem 1rem;
+    overflow-y: scroll;
+}
+
+.form-content{
+    border-top: 1px solid #ccc;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+form {
+    width: 100%;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 75px;
+    column-gap: 1rem;
+}
+
+#messages > div{
+    /* border-bottom: 1px solid #fff; */
+    display: flex;
+    padding: .25rem 0;
+}
+
+span{
+    background-color: #fff;
+    border-radius: .25rem;
+    padding: .5rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+small{
+    color: #777;
+    font-size: 70%;
+}
+
+.my-msg{
+    justify-content: flex-end;
+}
+
